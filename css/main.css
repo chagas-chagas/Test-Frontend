@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.navbar{
+    position:relative;
+    background-color: #3573ba;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0px 1px 15px black;
+}
+.nav{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: inherit;
+}
+.nav-link{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    color: #FFF;
+    text-decoration: none;
+    display: center;
+}
+.nav-link:hover{
+    color:rgb(46, 46, 104);
+}
+
+
+.header-2{
+    background-image: url(../img/banner/banner.png);
+    background-size: 100%;
+    height: 315px;
+    background-color: rgb(81, 110, 129);
+    
+}
+.header-2 input[type=text] {
+    background-image: url('../img/banner/search.png');
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: 20px 20px;
+    display: table;
+    margin: 0 auto;
+    width: 75%;
+    height: 30px;
+    padding: 6px 12px ;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.header-2 button{
+float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.titulo-site{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    color: white;
+
+}
+
+
+#logo img {
+    padding-top:50px;
+    display:block;
+    margin: 0 auto;
+}
+
+.sites-box-zoom{
+    position: relative;
+    width: 100%;
+}
+.titulo-sites{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+.titulo{
+    color:blue;
+    text-decoration: none;
+}
+
+
+
+    .footer{
+    position:relative;
+    background-color: #3573ba;
+    width: 100%;
+    height: 55px;
+    box-shadow: 1px 1px 15px black;
+
+}
+.footer-text{
+    color:white;
+    text-align: right;
+    position: relative;
+}
